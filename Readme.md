@@ -1,4 +1,4 @@
-Babaganoush
+Babaganoush for Sitefinity version 9 and below.  Starting Sitefinity 10, this framework is not needed.
 ===========
 * installation
 * global and start up
