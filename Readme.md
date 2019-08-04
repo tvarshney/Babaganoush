@@ -1,4 +1,4 @@
-Babaganoush for Sitefinity version 9 and below.  Starting Sitefinity 10, this framework is not needed.
+Babaganoush 
 ===========
 * installation
 * global and start up
@@ -12,3 +12,5 @@ Babaganoush for Sitefinity version 9 and below.  Starting Sitefinity 10, this fr
 * web api
 * dev restores from backup
 * fork solution
+
+For Sitefinity version 9 and below.  Starting Sitefinity 10, this framework is not needed.
