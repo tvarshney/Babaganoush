@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/BabaganoushMasterPagesSF/Base.master" %>
+
+<asp:Content ID="StylesContent" ContentPlaceHolderID="StylesPlaceHolder" runat="Server">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,600" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/glide.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/spacing.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/sitefinity-override.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/less/main.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="/Content/css/responsive.css" type="text/css" />
+</asp:Content>
+
+<asp:Content ID="SiteContent" ContentPlaceHolderID="SiteContentPlaceHolder" runat="Server">
+    <!-- Start Header -->
+    <div class="header navbar-fixed-top">
+        <div class="wrapper">
+            <div class="row">
+                <!-- === -->
+                <div class="col-xs-9 col-sm-3 col-md-3 col-lg-3 logo">
+                    <asp:ContentPlaceHolder ID="LogoPlaceHolder" runat="server" />
+                </div>
+                <!-- === -->
+                <div class="col-xs-3 col-sm-9 col-md-9 col-lg-9">
+                    <nav class="navbar navbar-default pull-right" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <asp:ContentPlaceHolder ID="MenuPlaceHolder" runat="server" />
+                                <asp:ContentPlaceHolder ID="HeaderRightContentPlaceHolder" runat="server" />
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+                <!-- === -->
+            </div>
+        </div>
+    </div>
+    <div class="header-spacer"></div>
+    <!-- Start Banner -->
+    <div class="banner banner-grey">
+        <div class="wrapper">
+            <asp:ContentPlaceHolder ID="BannerPlaceHolder" runat="server" />
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- Start Content -->
+    <!-- ============ -->
+    <div class="wrapper">
+        <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server" />
+    </div>
+    <!-- ============ -->
+    <div class="clients-wrapper default-wrapper-50">
+        <div class="wrapper">
+            <!-- ROW START -->
+            <div class="row">
+                <!-- === -->
+                <div class="col-lg-12">
+                    <asp:ContentPlaceHolder ID="SubMainContentPlaceHolder" runat="server" />
+                </div>
+                <!-- === -->
+            </div>
+        </div>
+    </div>
+    <!-- Start Footer -->
+    <div class="footer default-wrapper-50">
+        <div class="wrapper">
+            <div class="row">
+                <!-- === -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <asp:ContentPlaceHolder ID="FooterLeftPlaceHolder" runat="server" />
+                </div>
+                <!-- === -->
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="pull-right">
+                        <asp:ContentPlaceHolder ID="FooterRightPlaceHolder" runat="server" />
+                        <asp:ContentPlaceHolder ID="CopyrightPlaceHolder" runat="server" />
+                    </div>
+                </div>
+                <!-- === -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/Content/js/bootstrap.js"></script>
+    <asp:ContentPlaceHolder ID="ScriptsPlaceHolder" runat="server" />
+    <asp:ContentPlaceHolder ID="ScriptsPlaceHolder2" runat="server" />
+</asp:Content>

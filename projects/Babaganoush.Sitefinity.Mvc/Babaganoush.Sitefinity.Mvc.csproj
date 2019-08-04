@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C86AFB51-BA7F-4EBE-9E88-9E806344473A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Babaganoush.Sitefinity.Mvc</RootNamespace>
+    <AssemblyName>Babaganoush.Sitefinity.Mvc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\Babaganoush.Sitefinity.Mvc.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\..\libs\Sitefinity\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Config">
+      <HintPath>..\..\libs\Sitefinity\Telerik.OpenAccess.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Mvc">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Routes\EmbedScript.cs" />
+    <Compile Include="Startup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\RouteConfig.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Routes\MvcUrlModule.cs" />
+    <Compile Include="Routes\RequireJsConfigModule.cs" />
+    <Compile Include="Routes\ScriptsUrlModule.cs" />
+    <Compile Include="Web\Controllers\Abstracts\BaseController.cs" />
+    <Compile Include="Formatters\JsonpFormatter.cs" />
+    <Compile Include="Helpers\HtmlHelperExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routes\Abstracts\BaseScript.cs" />
+    <Compile Include="Routes\Abstracts\BaseScriptModule.cs" />
+    <Compile Include="Routes\UrlModule.cs" />
+    <Compile Include="Constraints\GuidConstraint.cs" />
+    <Compile Include="Web\Controllers\PageTitleController.cs" />
+    <Compile Include="Web\ViewModels\PageTitleViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Babaganoush.Core\Babaganoush.Core.csproj">
+      <Project>{48bee82d-c198-4d5b-a355-0193d20ff8e5}</Project>
+      <Name>Babaganoush.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Babaganoush.Sitefinity\Babaganoush.Sitefinity.csproj">
+      <Project>{02a48782-c6bf-452a-9f32-decb20530c4e}</Project>
+      <Name>Babaganoush.Sitefinity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Views\PageTitle\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

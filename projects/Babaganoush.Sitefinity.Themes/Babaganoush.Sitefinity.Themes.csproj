@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{684B23BA-7829-4EFC-9835-3683EFB99FC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Babaganoush.Sitefinity.Themes</RootNamespace>
+    <AssemblyName>Babaganoush.Sitefinity.Themes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\Babaganoush.Sitefinity.Themes.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Startup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MasterPageVirtualFile.cs" />
+    <Compile Include="Classes\MasterPageVirtualPathProvider.cs" />
+    <Compile Include="Configuration\BundleConfig.cs" />
+    <Compile Include="Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Babaganoush.Core\Babaganoush.Core.csproj">
+      <Project>{48bee82d-c198-4d5b-a355-0193d20ff8e5}</Project>
+      <Name>Babaganoush.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Babaganoush.Sitefinity\Babaganoush.Sitefinity.csproj">
+      <Project>{02a48782-c6bf-452a-9f32-decb20530c4e}</Project>
+      <Name>Babaganoush.Sitefinity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Layouts\1col_col12.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Layouts\2col_col4-8.ascx" />
+    <EmbeddedResource Include="Resources\Layouts\2col_col6-6.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Layouts\2col_col8-4.ascx" />
+    <EmbeddedResource Include="Resources\Layouts\3col_col3-6-3.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Layouts\3col_col4-4-4.ascx" />
+    <EmbeddedResource Include="Resources\Layouts\4col_col3-3-3-3.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Widgets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Pages\Base.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

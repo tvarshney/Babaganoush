@@ -1,0 +1,146 @@
+@media only screen and (min-width: 1441px) and (max-width: 4000px) {
+    .wrapper {
+        width: 1440px;
+    }
+
+    .features-wrapper {
+        width: 1200px;
+    }
+
+    .banner-right img {
+        float: right;
+    }
+
+    .banner-left {
+        padding: 20px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .wrapper {
+        width: 1200px;
+    }
+
+    .banner-left {
+        padding: 20px 0 0;
+    }
+	.download-baba-image{width:300px;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .wrapper {
+        width: 1000px;
+    }
+
+    .logo img {
+        width: auto;
+    }
+		.download-baba-image{width:300px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        width: 748px;
+    }
+
+    .logo img {
+        width: auto;
+    }
+
+    .navbar-right {
+        display: none;
+    }
+
+    .footer .pull-right {
+        float: left !important;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 479px) {
+    .wrapper {
+        padding: 0 10px;
+        width: 300px;
+    }
+
+    .navbar-collapse {
+        margin: 5px 0 0;
+        width: 290px;
+    }
+
+    .navbar {
+        margin: 0 -15px 0 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrapper {
+        padding: 0 10px;
+        width: 440px;
+    }
+
+    .navbar-collapse {
+        margin: 11px 0 0;
+        width: 420px;
+    }
+
+    .navbar {
+        margin: 4px 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+    .logo img {
+        width: auto;
+    }
+
+    .navbar.pull-right {
+        float: left;
+    }
+
+    .navbar-right {
+        margin: 19px 0 18px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .banner-right, .banner-left {
+        float: left;
+        width: 100%;
+    }
+
+    .features-icon {
+        width: 30px;
+    }
+
+    h2, .h2 {
+        font-size: 18px;
+    }
+
+    .banner-right img {
+        margin: 10px 0;
+    }
+
+    .header-spacer {
+        height: 77px;
+    }
+
+    .footer .pull-right {
+        float: left !important;
+    }
+
+    .nav > li {
+        margin: 10px 0;
+    }
+
+    .clients {
+        padding: 0;
+        margin: 0;
+    }
+
+    .clients li {
+        margin: 20px 0;
+        width: 100%;
+    }
+}

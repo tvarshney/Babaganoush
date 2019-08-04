@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5A078D6-AC37-468B-9A46-448B74F09398}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Babaganoush.Sitefinity.WebApi</RootNamespace>
+    <AssemblyName>Babaganoush.Sitefinity.WebApi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Babaganoush.Sitefinity.WebApi.XML</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\libs\Sitefinity\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.SelfHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Http.SelfHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\..\libs\Sitefinity\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.ContentModules">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.ContentModules.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Ecommerce, Version=7.0.5100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Ecommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Abstracts\BaseChildController.cs" />
+    <Compile Include="Api\Abstracts\BaseMediaController.cs" />
+    <Compile Include="Api\Abstracts\BaseDynamicController.cs" />
+    <Compile Include="Api\Abstracts\BaseContentController.cs" />
+    <Compile Include="Api\AccountsController.cs" />
+    <Compile Include="Api\Abstracts\BaseApiController.cs" />
+    <Compile Include="Api\BlogsController.cs" />
+    <Compile Include="Api\ContentsController.cs" />
+    <Compile Include="Api\DepartmentsController.cs" />
+    <Compile Include="Api\DocumentsController.cs" />
+    <Compile Include="Api\EventsController.cs" />
+    <Compile Include="Api\FormsController.cs" />
+    <Compile Include="Api\ImagesController.cs" />
+    <Compile Include="Api\ListsController.cs" />
+    <Compile Include="Api\LogsController.cs" />
+    <Compile Include="Api\NewsController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Api\TaxonomiesController.cs" />
+    <Compile Include="Api\PagesController.cs" />
+    <Compile Include="Api\BlogPostsController.cs" />
+    <Compile Include="Api\ProductsController.cs" />
+    <Compile Include="Api\VideosController.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Configuration\WebApiConfig.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Models\DataResponseSingle.cs" />
+    <Compile Include="Models\DataResponseError.cs" />
+    <Compile Include="Models\DataResponse.cs" />
+    <Compile Include="Models\DataResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routes\ServicesUrlModule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Babaganoush.Core\Babaganoush.Core.csproj">
+      <Project>{48bee82d-c198-4d5b-a355-0193d20ff8e5}</Project>
+      <Name>Babaganoush.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Babaganoush.Sitefinity.Mvc\Babaganoush.Sitefinity.Mvc.csproj">
+      <Project>{c86afb51-ba7f-4ebe-9e88-9e806344473a}</Project>
+      <Name>Babaganoush.Sitefinity.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Babaganoush.Sitefinity\Babaganoush.Sitefinity.csproj">
+      <Project>{02a48782-c6bf-452a-9f32-decb20530c4e}</Project>
+      <Name>Babaganoush.Sitefinity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

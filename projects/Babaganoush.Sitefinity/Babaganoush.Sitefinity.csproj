@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02A48782-C6BF-452A-9F32-DECB20530C4E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Babaganoush.Sitefinity</RootNamespace>
+    <AssemblyName>Babaganoush.Sitefinity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WarningsNotAsErrors>0618</WarningsNotAsErrors>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Babaganoush.Sitefinity.XML</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\libs\Sitefinity\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\..\libs\Sitefinity\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.ContentModules">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.ContentModules.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Ecommerce">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Ecommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Forums">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Forums.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Mvc">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Events">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Services.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications, Version=7.2.5300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Sitefinity.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\..\libs\Sitefinity\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ApprovalWorkflowState.cs" />
+    <Compile Include="Configuration\BabganoushConfig.cs" />
+    <Compile Include="Configuration\Elements\EcommerceElement.cs" />
+    <Compile Include="Configuration\Elements\ServicesElement.cs" />
+    <Compile Include="Configuration\Elements\ScriptsElement.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Content\Fields\CodeEditor.cs" />
+    <Compile Include="Content\Fields\CodeEditorDefinition.cs" />
+    <Compile Include="Content\Fields\CodeEditorDefinitionElement.cs" />
+    <Compile Include="Content\Fields\ICodeEditorDefinition.cs" />
+    <Compile Include="Content\Fields\IPageSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\IProductSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\IUserSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\PageSelector.cs" />
+    <Compile Include="Content\Fields\ProductSelector.cs" />
+    <Compile Include="Content\Fields\PageSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\ProductSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\PageSelectorDefinitionElement.cs" />
+    <Compile Include="Content\Fields\ProductSelectorDefinitionElement.cs" />
+    <Compile Include="Content\Fields\UserSelector.cs" />
+    <Compile Include="Content\Fields\UserSelectorDefinition.cs" />
+    <Compile Include="Content\Fields\UserSelectorDefinitionElement.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseFieldManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseDataManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseChildManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseSingletonManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseMediaManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseContentManager.cs" />
+    <Compile Include="Content\Managers\AccountsManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\BaseManager.cs" />
+    <Compile Include="Content\Managers\BlogsManager.cs" />
+    <Compile Include="Content\Managers\ContentsManager.cs" />
+    <Compile Include="Content\Managers\DepartmentsManager.cs" />
+    <Compile Include="Content\Managers\DocumentsManager.cs" />
+    <Compile Include="Content\Managers\Abstracts\DynamicModuleManager.cs" />
+    <Compile Include="Content\Managers\EventsManager.cs" />
+    <Compile Include="Content\Managers\FormsManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Content\Managers\ImagesManager.cs" />
+    <Compile Include="Extensions\PageExtensions.cs" />
+    <Compile Include="Extensions\TaxonomyManagerExtensions.cs" />
+    <Compile Include="Models\CalendarModel.cs" />
+    <Compile Include="Models\Interfaces\IProductFactory.cs" />
+    <Compile Include="Models\Factories\ProductFactory.cs" />
+    <Compile Include="Models\Interfaces\IPageFactory.cs" />
+    <Compile Include="Models\Factories\PageFactory.cs" />
+    <Compile Include="Models\Interfaces\IDataModel.cs" />
+    <Compile Include="Content\Managers\Interfaces\IMediaManager.cs" />
+    <Compile Include="Content\Managers\Interfaces\IChildManager.cs" />
+    <Compile Include="Content\Managers\Interfaces\IContentManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Content\Managers\Interfaces\IDataManager.cs" />
+    <Compile Include="Content\Managers\Interfaces\IDynamicManager.cs" />
+    <Compile Include="Content\Managers\ListsManager.cs" />
+    <Compile Include="Content\Managers\NewsManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Content\Managers\PagesManager.cs" />
+    <Compile Include="Content\Managers\BlogPostsManager.cs" />
+    <Compile Include="Content\Managers\ProductsManager.cs" />
+    <Compile Include="Content\Managers\TaxonomiesManager.cs" />
+    <Compile Include="Content\Managers\VideosManager.cs" />
+    <Compile Include="Data\BabaManagers.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Extensions\ContentExtensions.cs" />
+    <Compile Include="Extensions\DynamicModuleManagerExtensions.cs" />
+    <Compile Include="Extensions\TaxonomyExtensions.cs" />
+    <Compile Include="Application\BaseStartup.cs" />
+    <Compile Include="Models\BlogModel.cs" />
+    <Compile Include="Models\ContentModel.cs" />
+    <Compile Include="Models\DepartmentModel.cs" />
+    <Compile Include="Models\DocumentModel.cs" />
+    <Compile Include="Models\DynamicModel.cs" />
+    <Compile Include="Models\EventModel.cs" />
+    <Compile Include="Models\ImageModel.cs" />
+    <Compile Include="Models\Interfaces\IHierarchy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Interfaces\IStatus.cs" />
+    <Compile Include="Models\LibraryModel.cs" />
+    <Compile Include="Models\ListItemModel.cs" />
+    <Compile Include="Models\MediaModel.cs" />
+    <Compile Include="Models\NewsItemModel.cs" />
+    <Compile Include="Models\PageModel.cs" />
+    <Compile Include="Models\ParentModel.cs" />
+    <Compile Include="Models\BlogPostModel.cs" />
+    <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\ProductVariationModel.cs" />
+    <Compile Include="Models\RoleModel.cs" />
+    <Compile Include="Models\TaxonModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\VideoModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ConfigHelper.cs" />
+    <Compile Include="Utilities\ContentHelper.cs" />
+    <Compile Include="Utilities\LogHelper.cs" />
+    <Compile Include="Utilities\Interfaces\IPageHelper.cs" />
+    <Compile Include="Utilities\MailHelper.cs" />
+    <Compile Include="Utilities\PageHelper.cs" />
+    <Compile Include="Utilities\ResourceHelper.cs" />
+    <Compile Include="Utilities\SecurityHelper.cs" />
+    <Compile Include="Utilities\SystemHelper.cs" />
+    <Compile Include="Web\Controls\Abstracts\BaseSimpleView.cs" />
+    <Compile Include="Web\Controls\ThrowError.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Babaganoush.Core\Babaganoush.Core.csproj">
+      <Project>{48bee82d-c198-4d5b-a355-0193d20ff8e5}</Project>
+      <Name>Babaganoush.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Fields\CodeEditor.ascx" />
+    <EmbeddedResource Include="Content\Fields\CodeEditor.js" />
+    <EmbeddedResource Include="Resources\Scripts\main.js" />
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\css\bootstrap.min.css" />
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\js\bootstrap.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\angular\angular.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\baba\alerts.js" />
+    <EmbeddedResource Include="Resources\Scripts\glide\jquery.glide.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\lostorage\loStorage.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\url\url.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\baba\helpers.js" />
+    <EmbeddedResource Include="Resources\Scripts\baba\api.js" />
+    <EmbeddedResource Include="Resources\Scripts\require\css.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\moment\moment-timezone-with-data.js" />
+    <EmbeddedResource Include="Resources\Scripts\moment\moment.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\underscore\lodash.underscore.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\underscore\underscore.string.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Fields\" />
+    <Folder Include="Models\Abstracts\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="Resources\Styles\" />
+    <Folder Include="Web\Designers\" />
+    <Folder Include="Web\Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <EmbeddedResource Include="Resources\Scripts\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Fields\UserSelector.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\Fields\UserSelector.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Fields\ProductSelector.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\Fields\ProductSelector.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Fields\PageSelector.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Fields\PageSelector.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery\jquery-migrate.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

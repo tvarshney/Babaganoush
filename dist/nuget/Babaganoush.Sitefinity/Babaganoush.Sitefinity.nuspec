@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Babaganoush.Sitefinity</id>
+	<title>Babaganoush for Sitefinity</title>
+    <version>2.1.0.0</version>
+    <authors>Falafel Software</authors>
+    <owners>Falafel Software</owners>
+    <licenseUrl>http://www.falafel.com/license</licenseUrl>
+    <projectUrl>http://babaganoush.falafel.com</projectUrl>
+    <iconUrl>http://babaganoush.falafel.com/images/default-source/Site-Images/babaganoush-logo-sm.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<summary>Babaganoush is an SDK for Sitefinity to allow developers to code rapidly to build Sitefinity solutions.</summary>
+    <description>Babaganoush is an SDK for Sitefinity to allow developers to code rapidly to build Sitefinity solutions. Focus on solutions instead of troubleshooting issues or inconsistencies using our API that sits as an abstraction layer on top of Sitefinity. Babaganoush provides you the latest patterns, techniques, and libraries so you can begin building for the future. Compiled for 9.0.6000.0, targets .NET 4.5; use assembly redirection for future versions.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Sitefinity Falafel KendoUI Telerik</tags>
+  </metadata>
+</package>

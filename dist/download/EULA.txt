@@ -1,0 +1,42 @@
+END USER LICENSE AGREEMENT FOR ALL FALAFEL SITEFINITY CONTROLS AND MODULES – including  but not limited to Sitefinity Ultimate Suite, Orders Module, Event Registration, Twitter Connector, Facebook Connector, FormBuilder, (“SOFTWARE PRODUCT”).  
+
+IMPORTANT: PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM.  
+FALAFEL SOFTWARE (“FALAFEL”) Software End-User License Agreement ("EULA") is a legal agreement between you as an individual and FALAFEL for the FALAFEL software product(s) identified above which may include associated software components, media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT").  By downloading, operating, and/or using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA.  This license agreement represents the entire agreement concerning the program between you and FALAFEL, (referred to as "licenser"), and it supersedes any prior proposal, representation, agreement, negotiation, offer, counteroffer, acceptance, understanding, or any contrary terms between the parties.  If you do not agree to the terms of this EULA, you are not authorized to download, operate, or otherwise use the SOFTWARE PRODUCT.  
+
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.  As between you and FALAFEL, the SOFTWARE PRODUCT is the sole and exclusive property of FALAFEL.  Your use of the SOFTWARE PRODUCT is solely controlled by this EULA which cannot be changed except by a written agreement executed between you and FALAFEL.  The SOFTWARE PRODUCT is licensed, not sold.  
+
+1.  GRANT OF LICENSE
+The SOFTWARE PRODUCT is licensed as follows: 
+(a) Installation and Use.
+     Unless otherwise stated elsewhere in official documentation, FALAFEL grants you the right to install and use copies of the SOFTWARE PRODUCT on one computer only.  
+
+2.  DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS 
+(a) Maintenance of Copyright Notices
+     You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.  
+
+(b) Distribution
+     You may not distribute the SOFTWARE PRODUCT to third parties.  
+
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly
+     You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law.  
+
+(d) Rental
+     You may not rent, lease, or lend the SOFTWARE PRODUCT.  
+
+(e) Support Services
+     Support Services are fee based. FALAFEL may in its sole discretion provide you with support services related to the SOFTWARE PRODUCT ("Support Services").  FALAFEL is not required to provide Support Services.   No failure to provide, or to continue to provide, Support Services will be a default of FALAFEL hereunder.  Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT, as between you and FALAFEL  shall be and remain the sole property of FALAFEL , and shall be subject to the terms and conditions of this EULA.  
+
+(f) Compliance with Applicable Laws
+    You will fully comply with all applicable laws regarding use of the SOFTWARE PRODUCT.  
+
+3.  TERM; TERMINATION; MODIFICATION OF EULA
+The term of this EULA will commence upon download of the SOFTWARE PRODUCT and will continue for so long as you have in your possession or control any copies of the SOFTWARE PRODUCT.   Without prejudice to any other of its rights, FALAFEL may unilaterally terminate or modify this EULA at any time and for any reason or for no reason, with no notice to you.   For example, but not in limitation, FALAFEL may elect to terminate this EULA and your rights in connection with the SOFTWARE PRODUCT, if FALAFEL, in its sole determination, stops supporting or maintaining the SOFTWARE PRODUCT, ceases to provide updates, no longer offers the SOFTWARE PRODUCT for license, or believes you have failed to comply with the terms and conditions of this EULA.  In the event of termination arising from your failure to comply with the terms of the EULA, you must promptly destroy all copies and partial copies of the SOFTWARE PRODUCT in your possession.   If modification of the EULA by FALAFEL materially affects your rights in connection with the SOFTWARE PRODUCT, which determination will be made by FALAFEL in its sole determination, FALAFEL will notify you by sending an email message to your last email address known to FALAFEL.  FALAFEL will have no liability if you do not receive FALAFEL’s notification.  
+
+4.  COPYRIGHT
+As between you and FALAFEL, all title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by FALAFEL.  As between you and FALAFEL, all title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of FALAFEL and may be protected by applicable copyright or other intellectual property laws and treaties.  This EULA grants you no rights to use such content except as expressly and unambiguously set forth herein.  All rights not expressly granted are reserved by FALAFEL.  
+ 
+5.  NO WARRANTIES
+FALAFEL expressly disclaims any warranty for the SOFTWARE PRODUCT.  The SOFTWARE PRODUCT is provided “As Is” and “Where Is” without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, fitness for a particular purpose, non infringement, or continuous operation.  The entire risk associated with operation of the SOFTWARE PRODUCT is assumed by you.   FALAFEL does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT.  FALAFEL makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program.  FALAFEL further expressly disclaims any warranty or representation to any third party who may operate or otherwise utilize the SOFTWARE PRODUCT.  
+
+6.  LIMITATION OF LIABILITY
+In no event shall FALAFEL  be liable for any damages (including, without limitation, direct, special, incidental, consequential, or punitive damages, lost profits, business interruption, or lost information) rising out of your use of, or inability to use, the SOFTWARE PRODUCT, or the use or inability to use the Software Product by any third party that may have access to the Software Product by or through you, even if FALAFEL  has been advised of the possibility of such damages, and without regard to whether such damages, or claims of damages arise based in contract, tort or otherwise.  FALAFEL shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to, errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.  

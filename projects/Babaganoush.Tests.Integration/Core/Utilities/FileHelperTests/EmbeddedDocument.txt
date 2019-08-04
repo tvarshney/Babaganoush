@@ -1,0 +1,1 @@
+﻿This is a file that's embedded into the Integration Tests assembly.
